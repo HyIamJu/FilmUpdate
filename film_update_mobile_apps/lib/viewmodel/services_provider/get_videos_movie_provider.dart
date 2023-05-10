@@ -20,14 +20,14 @@ class GetVideosMovieProvider extends ChangeNotifier {
       _movieVideos.clear();
       final response = await tmdbServices.getMovieVideos(movieId: movieId);
 
-      for (var element in response.results) {
+      for (MovieVideos element in response.results) {
         if (element.type == "Trailer") {
           _movieVideos.add(element);
         }
       }
 
       if (_movieVideos.isEmpty) {
-        for (var element in response.results) {
+        for (MovieVideos element in response.results) {
           _movieVideos.add(element);
         }
       }
