@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.film_update_mobile_apps">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="film_update_mobile_apps"
+        android:label="Film Update"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
