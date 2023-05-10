@@ -5,6 +5,7 @@ import 'package:film_update_mobile_apps/viewmodel/services_provider/get_discover
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../utils/app_constant.dart';
+import '../../details/screen/details_screen.dart';
 
 class DiscoverMovieComponent extends StatefulWidget {
   const DiscoverMovieComponent({
@@ -23,65 +24,99 @@ class DiscoverMovieComponent extends StatefulWidget {
 class _DiscoverMovieComponentState extends State<DiscoverMovieComponent> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    context.read<GetDiscoverMovieProvider>().getDiscoverMovieData();
   }
 
   @override
   Widget build(BuildContext context) {
-    return SliverToBoxAdapter(
-      child: Consumer<GetDiscoverMovieProvider>(
-        builder: (context, provider, child) {
-          if (provider.state == MyState.loading) {
-            return CarouselSlider.builder(
-              itemCount: 3,
-              options: CarouselOptions(
-                enlargeStrategy: CenterPageEnlargeStrategy.scale,
-                // enlargeStrategy: CenterPageEnlargeStrategy.zoom,
-                autoPlay: true,
-                viewportFraction: 0.75,
-                height: widget.screenHeight * 0.28,
-                enlargeCenterPage: true,
-              ),
-              itemBuilder: (context, index, _) {
-                return Container(
-                  decoration: BoxDecoration(
-                    color: softdarkpurple,
-                    borderRadius: BorderRadius.circular(40),
-                  ),
-                  child: const Center(
-                    child: CircularProgressIndicator(),
-                  ),
-                );
-              },
+    return Consumer<GetDiscoverMovieProvider>(
+      builder: (context, provider, child) {
+        if (provider.state == MyState.loading) {
+          return CarouselSlider.builder(
+            itemCount: 3,
+            options: CarouselOptions(
+              enlargeStrategy: CenterPageEnlargeStrategy.scale,
+              // enlargeStrategy: CenterPageEnlargeStrategy.zoom,
+              autoPlay: true,
+              viewportFraction: 0.75,
+              height: widget.screenHeight * 0.28,
+              enlargeCenterPage: true,
+            ),
+            itemBuilder: (context, index, _) {
+              return Container(
+                decoration: BoxDecoration(
+                  color: softdarkpurple,
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                child: const Center(
+                  child: CircularProgressIndicator(),
+                ),
+              );
+            },
+          );
+        } else if (provider.state == MyState.loaded) {
+          if (provider.getMovies.isEmpty) {
+            return const Center(
+              child: CircularProgressIndicator(),
             );
-          } else if (provider.state == MyState.loaded) {
-            return CarouselSlider.builder(
-              itemCount: provider.movieLength,
-              options: CarouselOptions(
-                enlargeStrategy: CenterPageEnlargeStrategy.scale,
-                // enlargeStrategy: CenterPageEnlargeStrategy.zoom,
-                autoPlay: true,
-                viewportFraction: 0.75,
-                height: widget.screenHeight * 0.28,
-                enlargeCenterPage: true,
-              ),
-              itemBuilder: (context, index, _) {
-                return _ItemDiscoverMovie(
-                    screenWidth: widget.screenWidth,
-                    backdropPath: provider.getMovies[index].backdropPath,
-                    title: provider.getMovies[index].title,
-                    voteAverage: provider.getMovies[index].voteAverage);
-              },
-            );
-          } else if (provider.state == MyState.failed) {
-            return Container();
-          } else {
-            return Container();
           }
-        },
-      ),
+
+          return CarouselSlider.builder(
+            itemCount: provider.movieLength,
+            options: CarouselOptions(
+              enlargeStrategy: CenterPageEnlargeStrategy.scale,
+              // enlargeStrategy: CenterPageEnlargeStrategy.zoom,
+              autoPlay: true,
+              viewportFraction: 0.75,
+              height: widget.screenHeight * 0.28,
+              enlargeCenterPage: true,
+            ),
+            itemBuilder: (context, index, _) {
+              return Stack(
+                children: [
+                  _ItemDiscoverMovie(
+                      screenWidth: widget.screenWidth,
+                      backdropPath: provider.getMovies[index].backdropPath,
+                      title: provider.getMovies[index].title!,
+                      voteAverage: provider.getMovies[index].voteAverage!),
+                  Positioned.fill(
+                    child: Material(
+                      color: Colors.transparent,
+                      child: InkWell(
+                        overlayColor: MaterialStatePropertyAll(
+                            nicepurple.withOpacity(0.2)),
+                        borderRadius: BorderRadius.circular(40),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return DetailsScreen(
+                                  movieId: provider.getMovies[index].id!,
+                                );
+                              },
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                ],
+              );
+            },
+          );
+        } else if (provider.state == MyState.failed) {
+          return Container(
+            alignment: Alignment.center,
+            child: const Text(
+              "fail",
+              style: TextStyle(color: Colors.white),
+            ),
+          );
+        } else {
+          return Container();
+        }
+      },
     );
   }
 }
@@ -130,6 +165,19 @@ class _ItemDiscoverMovie extends StatelessWidget {
                 AppConstant.imageUrlW500 + backdropPath!,
                 fit: BoxFit.cover,
                 height: double.maxFinite,
+                errorBuilder: (context, error, stackTrace) => Center(
+                  child: Wrap(
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    direction: Axis.vertical,
+                    children: [
+                      const Icon(Icons.wifi_off),
+                      Text(
+                        "connection eror",
+                        style: Theme.of(context).textTheme.bodySmall,
+                      )
+                    ],
+                  ),
+                ),
               ),
         Container(
           decoration: const BoxDecoration(
