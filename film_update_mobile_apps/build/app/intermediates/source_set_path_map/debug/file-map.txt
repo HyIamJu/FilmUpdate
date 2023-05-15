@@ -1,0 +1,34 @@
+com.example.film_update_mobile_apps.app-jetified-window-java-1.0.0-beta04-0 C:\Users\JUNAN\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.film_update_mobile_apps.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-1 C:\Users\JUNAN\.gradle\caches\transforms-3\15750e62ad940a5485db403f60888c47\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.film_update_mobile_apps.app-swiperefreshlayout-1.1.0-2 C:\Users\JUNAN\.gradle\caches\transforms-3\1eb2ed0bd1d2a8a8cd1f3422fd220bb6\transformed\swiperefreshlayout-1.1.0\res
+com.example.film_update_mobile_apps.app-fragment-1.3.6-3 C:\Users\JUNAN\.gradle\caches\transforms-3\25a0b970139aa02c768087660f5883a2\transformed\fragment-1.3.6\res
+com.example.film_update_mobile_apps.app-core-1.8.0-4 C:\Users\JUNAN\.gradle\caches\transforms-3\270e9501dde0430a83746f97bf9ab544\transformed\core-1.8.0\res
+com.example.film_update_mobile_apps.app-browser-1.4.0-5 C:\Users\JUNAN\.gradle\caches\transforms-3\392643a040d0a7ef9b2ed4537c4719d5\transformed\browser-1.4.0\res
+com.example.film_update_mobile_apps.app-jetified-emoji2-views-helper-1.2.0-6 C:\Users\JUNAN\.gradle\caches\transforms-3\54cba3c83d64d0dd6a4cc54f820b3af9\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.film_update_mobile_apps.app-lifecycle-runtime-2.5.1-7 C:\Users\JUNAN\.gradle\caches\transforms-3\6f057f4a9981c5e9610d447472908207\transformed\lifecycle-runtime-2.5.1\res
+com.example.film_update_mobile_apps.app-webkit-1.5.0-8 C:\Users\JUNAN\.gradle\caches\transforms-3\7a9e722f9cadd913a07709114ac94695\transformed\webkit-1.5.0\res
+com.example.film_update_mobile_apps.app-jetified-annotation-experimental-1.1.0-9 C:\Users\JUNAN\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.film_update_mobile_apps.app-lifecycle-livedata-core-2.5.1-10 C:\Users\JUNAN\.gradle\caches\transforms-3\9b3223e6c313a1ec1987e0c2e1a4f471\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.film_update_mobile_apps.app-jetified-savedstate-1.2.0-11 C:\Users\JUNAN\.gradle\caches\transforms-3\b0454de422f37cc160c32deb4c640142\transformed\jetified-savedstate-1.2.0\res
+com.example.film_update_mobile_apps.app-jetified-core-ktx-1.8.0-12 C:\Users\JUNAN\.gradle\caches\transforms-3\b431c95aeca551584d4466c6f05603c2\transformed\jetified-core-ktx-1.8.0\res
+com.example.film_update_mobile_apps.app-jetified-lifecycle-process-2.4.1-13 C:\Users\JUNAN\.gradle\caches\transforms-3\bfb294eadd9142ad90bb62295accd8ec\transformed\jetified-lifecycle-process-2.4.1\res
+com.example.film_update_mobile_apps.app-lifecycle-viewmodel-2.5.1-14 C:\Users\JUNAN\.gradle\caches\transforms-3\d1c8080f448a14a849e8a9c5a1f75490\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.film_update_mobile_apps.app-appcompat-1.5.1-15 C:\Users\JUNAN\.gradle\caches\transforms-3\dd7933181bcd1a44ab10530c6cc929bb\transformed\appcompat-1.5.1\res
+com.example.film_update_mobile_apps.app-jetified-window-1.0.0-beta04-16 C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.film_update_mobile_apps.app-jetified-appcompat-resources-1.5.1-17 C:\Users\JUNAN\.gradle\caches\transforms-3\e5ecb561b33282f611e0fcda16f468e3\transformed\jetified-appcompat-resources-1.5.1\res
+com.example.film_update_mobile_apps.app-jetified-activity-1.5.1-18 C:\Users\JUNAN\.gradle\caches\transforms-3\f095873b18dd36b667d9dc3ab696f170\transformed\jetified-activity-1.5.1\res
+com.example.film_update_mobile_apps.app-jetified-emoji2-1.2.0-19 C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\res
+com.example.film_update_mobile_apps.app-jetified-startup-runtime-1.1.1-20 C:\Users\JUNAN\.gradle\caches\transforms-3\ff5f5b0a71e9b3e49766bc82725fe9a1\transformed\jetified-startup-runtime-1.1.1\res
+com.example.film_update_mobile_apps.app-debug-21 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\debug\res
+com.example.film_update_mobile_apps.app-main-22 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\res
+com.example.film_update_mobile_apps.app-pngs-23 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\generated\res\pngs\debug
+com.example.film_update_mobile_apps.app-resValues-24 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\generated\res\resValues\debug
+com.example.film_update_mobile_apps.app-rs-25 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\generated\res\rs\debug
+com.example.film_update_mobile_apps.app-mergeDebugResources-26 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.film_update_mobile_apps.app-mergeDebugResources-27 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.film_update_mobile_apps.app-merged_res-28 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\app\intermediates\merged_res\debug
+com.example.film_update_mobile_apps.app-packaged_res-29 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\connectivity_plus\intermediates\packaged_res\debug
+com.example.film_update_mobile_apps.app-packaged_res-30 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\packaged_res\debug
+com.example.film_update_mobile_apps.app-packaged_res-31 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\path_provider_android\intermediates\packaged_res\debug
+com.example.film_update_mobile_apps.app-packaged_res-32 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\sqflite\intermediates\packaged_res\debug
+com.example.film_update_mobile_apps.app-packaged_res-33 E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\url_launcher_android\intermediates\packaged_res\debug

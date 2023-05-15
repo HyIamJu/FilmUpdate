@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pichillilorenzo.flutter_inappwebview" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="17"
+6-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="17" />
+7-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+8
+9    <queries>
+9-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:37:5-42:15
+10        <intent>
+10-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:38:9-41:18
+11            <action android:name="android.support.customtabs.action.CustomTabsService" />
+11-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:39:13-40:73
+11-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:39:21-104
+12        </intent>
+13    </queries>
+14
+15    <application>
+15-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:4:5-35:19
+16        <activity
+16-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:5:9-9:140
+17            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+17-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:8:13-104
+18            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+18-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:9:13-137
+19            android:exported="false"
+19-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:7:13-37
+20            android:theme="@style/AppTheme" />
+20-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:6:13-44
+21        <activity
+21-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:10:9-13:115
+22            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+22-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:13:13-112
+23            android:exported="false"
+23-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:12:13-37
+24            android:theme="@style/ThemeTransparent" />
+24-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:11:13-52
+25        <activity
+25-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:14:9-17:109
+26            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+26-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:17:13-106
+27            android:exported="false"
+27-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:16:13-37
+28            android:theme="@style/ThemeTransparent" />
+28-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:15:13-52
+29        <activity
+29-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:18:9-22:50
+30            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+30-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:21:13-126
+31            android:exported="false"
+31-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:20:13-37
+32            android:launchMode="singleInstance"
+32-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:22:13-48
+33            android:theme="@style/ThemeTransparent" />
+33-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:19:13-52
+34        <activity
+34-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:23:9-27:50
+35            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+35-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:26:13-120
+36            android:exported="false"
+36-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:25:13-37
+37            android:launchMode="singleInstance"
+37-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:27:13-48
+38            android:theme="@style/ThemeTransparent" />
+38-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:24:13-52
+39
+40        <receiver
+40-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:28:9-31:40
+41            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+41-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:29:13-111
+42            android:enabled="true"
+42-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:30:13-35
+43            android:exported="false" />
+43-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:31:13-37
+44
+45        <meta-data
+45-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:32:9-34:36
+46            android:name="io.flutter.embedded_views_preview"
+46-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:33:13-61
+47            android:value="true" />
+47-->C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:34:13-33
+48    </application>
+49
+50</manifest>

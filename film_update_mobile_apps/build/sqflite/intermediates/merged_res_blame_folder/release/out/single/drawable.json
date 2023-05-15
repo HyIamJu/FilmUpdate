@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/drawable/notification_bg.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/drawable/notification_bg_low.xml"
+    }
+]

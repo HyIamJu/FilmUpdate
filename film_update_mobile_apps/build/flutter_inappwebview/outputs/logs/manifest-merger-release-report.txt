@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:4:5-35:19
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:5:9-9:140
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:7:13-37
+	android:configChanges
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:9:13-137
+	android:theme
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:6:13-44
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:8:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:10:9-13:115
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:11:13-52
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:13:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:14:9-17:109
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:15:13-52
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:17:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:18:9-22:50
+	android:launchMode
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:19:13-52
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:21:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:23:9-27:50
+	android:launchMode
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:26:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:28:9-31:40
+	android:enabled
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:29:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:32:9-34:36
+	android:value
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:34:13-33
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:33:13-61
+queries
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:37:5-42:15
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:38:9-41:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:39:13-40:73
+	android:name
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml:39:21-104
+uses-sdk
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JUNAN\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.7.2+3\android\src\main\AndroidManifest.xml
