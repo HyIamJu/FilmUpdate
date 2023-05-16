@@ -152,10 +152,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                 alignment: Alignment.center,
                                 height: double.infinity,
                                 color: softdarkpurple,
-                                child: Wrap(
+                                child: const Wrap(
                                   crossAxisAlignment: WrapCrossAlignment.center,
                                   direction: Axis.vertical,
-                                  children: const [
+                                  children: [
                                     Icon(
                                       Icons.image,
                                       color: darkpurple,

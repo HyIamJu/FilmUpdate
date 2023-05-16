@@ -88,10 +88,10 @@ class TopBilledCastWidget extends StatelessWidget {
                                 width: screenWidth * 0.38,
                                 height: screenWidth * 0.375,
                                 color: softdarkpurple,
-                                child: Wrap(
+                                child: const Wrap(
                                   crossAxisAlignment: WrapCrossAlignment.center,
                                   direction: Axis.vertical,
-                                  children: const [
+                                  children: [
                                     Icon(
                                       Icons.image,
                                       color: darkpurple,

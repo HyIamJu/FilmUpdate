@@ -1,4 +1,4 @@
-#Wed May 10 15:42:04 ICT 2023
+#Wed May 10 21:47:36 ICT 2023
 base.0=E\:\\studi independent\\tugas\\mini_project\\FilmUpdate\\film_update_mobile_apps\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

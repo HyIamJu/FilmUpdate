@@ -192,9 +192,9 @@ class _ContactMeScreenState extends State<ContactMeScreen> {
                               borderRadius: BorderRadius.circular(30)),
                           backgroundColor: nicepurple,
                           foregroundColor: Colors.white),
-                      child: Row(
+                      child: const Row(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Text("Send Message"),
                         ],
                       ),
