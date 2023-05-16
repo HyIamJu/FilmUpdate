@@ -8,7 +8,7 @@ Star⭐ the repo if you like what you see😉.
 
 ## 📸 ScreenShots
 
-<img src="media/banner.jpg.png"/>
+<img src="media/banner.jpg"/>
 
 | 1 | 2|
 |------|-------|
