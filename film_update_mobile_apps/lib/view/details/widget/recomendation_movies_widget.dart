@@ -49,9 +49,9 @@ class _RecomendationMovieWidgetState extends State<RecomendationMovieWidget> {
               return Padding(
                 padding:
                     EdgeInsets.symmetric(horizontal: widget.paddingHorizontal),
-                child: Wrap(
+                child: const Wrap(
                   direction: Axis.vertical,
-                  children: const [
+                  children: [
                     SizedBox(
                       height: 10,
                     ),

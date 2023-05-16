@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.film_update_mobile_apps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <queries>
+13-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-13:15
+14        <intent>
+14-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+15            <action android:name="android.support.customtabs.action.CustomTabsService" />
+15-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+15-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+16        </intent>
+17    </queries>
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:connectivity_plus] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+19-->[:connectivity_plus] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+20
+21    <application
+22        android:name="android.app.Application"
+22-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:6:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] C:\Users\JUNAN\.gradle\caches\transforms-3\270e9501dde0430a83746f97bf9ab544\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="Film Update" >
+25-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:5:9-36
+26        <activity
+26-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:8:9-28:20
+27            android:name="com.example.film_update_mobile_apps.MainActivity"
+27-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:9:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:13:13-163
+29            android:exported="true"
+29-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:10:13-36
+30            android:hardwareAccelerated="true"
+30-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:14:13-47
+31            android:launchMode="singleTop"
+31-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:11:13-43
+32            android:theme="@style/LaunchTheme"
+32-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:12:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:15:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:20:13-23:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:21:15-70
+43                android:resource="@style/NormalTheme" />
+43-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:22:15-52
+44
+45            <intent-filter>
+45-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:24:13-27:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:25:17-68
+46-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:25:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:26:17-76
+48-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:26:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:31:9-33:33
+56            android:name="flutterEmbedding"
+56-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:32:13-44
+57            android:value="2" />
+57-->E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\android\app\src\main\AndroidManifest.xml:33:13-30
+58
+59        <activity
+59-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+60            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+60-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+61-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+62            android:exported="false"
+62-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+63            android:theme="@style/AppTheme" />
+63-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+64        <activity
+64-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+65            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+65-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+66            android:exported="false"
+66-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+67            android:theme="@style/ThemeTransparent" />
+67-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+68        <activity
+68-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+69            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+69-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+70            android:exported="false"
+70-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+71            android:theme="@style/ThemeTransparent" />
+71-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+72        <activity
+72-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+73            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+73-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+74            android:exported="false"
+74-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+75            android:launchMode="singleInstance"
+75-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+76            android:theme="@style/ThemeTransparent" />
+76-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+77        <activity
+77-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+78            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+78-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+79            android:exported="false"
+79-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+80            android:launchMode="singleInstance"
+80-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+81            android:theme="@style/ThemeTransparent" />
+81-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+82
+83        <receiver
+83-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+84            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+84-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+85            android:enabled="true"
+85-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+86            android:exported="false" />
+86-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+87
+88        <meta-data
+88-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+89            android:name="io.flutter.embedded_views_preview"
+89-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+90            android:value="true" />
+90-->[:flutter_inappwebview] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+91
+92        <activity
+92-->[:url_launcher_android] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+93            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+93-->[:url_launcher_android] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+94            android:exported="false"
+94-->[:url_launcher_android] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+95            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+95-->[:url_launcher_android] E:\studi independent\tugas\mini_project\FilmUpdate\film_update_mobile_apps\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+96
+97        <uses-library
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+98            android:name="androidx.window.extensions"
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+101            android:name="androidx.window.sidecar"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\JUNAN\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.film_update_mobile_apps.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JUNAN\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JUNAN\.gradle\caches\transforms-3\bfb294eadd9142ad90bb62295accd8ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JUNAN\.gradle\caches\transforms-3\bfb294eadd9142ad90bb62295accd8ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JUNAN\.gradle\caches\transforms-3\bfb294eadd9142ad90bb62295accd8ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+114        </provider>
+115    </application>
+116
+117</manifest>

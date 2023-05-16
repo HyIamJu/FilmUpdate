@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/select_dialog_singlechoice_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/browser_actions_context_menu_row.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-browser-1.4.0-5:/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_alert_dialog_title_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_menu_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_mode_close_item_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_list_menu_item_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/notification_action_tombstone.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/select_dialog_item_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_screen_toolbar.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_list_menu_item_checkbox.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/floating_action_mode_item.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-main-21:/layout/floating_action_mode_item.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_cascading_menu_item_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_select_dialog_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_alert_dialog_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_screen_simple.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/activity_web_view.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-main-21:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/notification_action.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/notification_template_part_time.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/notification_template_part_chronometer.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_activity_chooser_view.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_tooltip.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_bar_up_container.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/notification_template_icon_group.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_search_view.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/browser_actions_context_menu_page.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-browser-1.4.0-5:/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_menu_item_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_bar_title_item.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_expanded_menu_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_list_menu_item_radio.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_list_menu_item_icon.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/floating_action_mode.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-main-21:/layout/floating_action_mode.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_dialog_title_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_screen_content_include.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/chrome_custom_tabs_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-main-21:/layout/chrome_custom_tabs_layout.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/custom_dialog.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/select_dialog_multichoice_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_action_mode_bar.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/layout/abc_popup_menu_item_layout.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/layout/abc_popup_menu_item_layout.xml"
+    }
+]

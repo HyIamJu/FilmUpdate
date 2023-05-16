@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/notification_action.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/custom_dialog.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.tekartik.sqflite-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "com.tekartik.sqflite-core-1.6.0-1:/layout/notification_template_part_chronometer.xml"
+    }
+]

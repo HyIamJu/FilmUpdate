@@ -67,8 +67,8 @@ class _TrailersMovieWidgetState extends State<TrailersMovieWidget> {
             return SizedBox(
                 child: Padding(
               padding: EdgeInsets.symmetric(horizontal: widget.horizontal),
-              child: Row(
-                children: const [
+              child: const Row(
+                children: [
                   Text(
                     "No videos for this movie",
                     style: TextStyle(),

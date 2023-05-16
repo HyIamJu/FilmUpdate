@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/abc_list_divider_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/abc_edit_text_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/notification_action_background.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-core-1.8.0-4:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/abc_btn_colored_material.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/drawable-v21/abc_dialog_material_background.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/drawable-v21/abc_dialog_material_background.xml"
+    }
+]

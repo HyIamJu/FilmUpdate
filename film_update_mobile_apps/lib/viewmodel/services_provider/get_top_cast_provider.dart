@@ -18,6 +18,7 @@ class GetTopCastProvider extends ChangeNotifier {
   void getTopCastData({required int movieId}) async {
     try {
       state = MyState.loading;
+      _cast.clear();
       final response = await tmdbServices.getMovieCredits(movieId: movieId);
 
       if (response.isNotEmpty) {

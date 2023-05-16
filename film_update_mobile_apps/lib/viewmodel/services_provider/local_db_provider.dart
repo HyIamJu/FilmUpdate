@@ -37,7 +37,7 @@ class LocalDatabaseProvider extends ChangeNotifier {
   }
 
   bool isContainThisId(int movieId) {
-    for (var value in _favoriteModels) {
+    for (FavoriteMovieModel value in _favoriteModels) {
       if (value.idMovie == movieId) {
         return true;
       }

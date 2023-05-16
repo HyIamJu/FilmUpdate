@@ -30,7 +30,7 @@ class GetDetailsMovieProvider extends ChangeNotifier {
   String getGenres() {
     String allGenre = "";
     if (_details!.genres.isNotEmpty) {
-      for (var i = 0; i < _details!.genres.length; i++) {
+      for (int i = 0; i < _details!.genres.length; i++) {
         if (i + 1 != _details!.genres.length) {
           allGenre += "${_details!.genres[i].name}, ";
         } else {

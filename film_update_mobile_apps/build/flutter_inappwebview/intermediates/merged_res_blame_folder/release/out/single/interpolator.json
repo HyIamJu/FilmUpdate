@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/fast_out_slow_in.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/fast_out_slow_in.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.pichillilorenzo.flutter_inappwebview-merged_res-27:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-15:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    }
+]

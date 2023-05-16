@@ -1,0 +1,4 @@
+#Tue May 16 14:42:18 ICT 2023
+base.0=E\:\\studi independent\\tugas\\mini_project\\FilmUpdate\\film_update_mobile_apps\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

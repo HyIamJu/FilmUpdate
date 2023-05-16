@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pichillilorenzo.flutter_inappwebview" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <application>
+        <activity
+            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+            android:exported="false"
+            android:theme="@style/ThemeTransparent" />
+        <activity
+            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+            android:exported="false"
+            android:theme="@style/ThemeTransparent" />
+        <activity
+            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/ThemeTransparent" />
+        <activity
+            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/ThemeTransparent" />
+
+        <receiver
+            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="io.flutter.embedded_views_preview"
+            android:value="true" />
+    </application>
+
+</manifest>

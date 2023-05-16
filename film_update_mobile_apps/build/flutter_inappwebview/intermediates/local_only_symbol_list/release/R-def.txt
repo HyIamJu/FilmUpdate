@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+drawable floating_action_mode_shape
+id action_close
+id action_go_back
+id action_go_forward
+id action_reload
+id action_share
+id container
+id menu_search
+id progressBar
+id pullToRefresh
+id webView
+layout activity_web_view
+layout chrome_custom_tabs_layout
+layout floating_action_mode
+layout floating_action_mode_item
+menu menu_main
+string action_close
+string action_go_back
+string action_go_forward
+string action_reload
+string action_share
+string menu_search
+style AppTheme
+style InAppWebViewTheme
+style ThemeTransparent
+xml provider_paths

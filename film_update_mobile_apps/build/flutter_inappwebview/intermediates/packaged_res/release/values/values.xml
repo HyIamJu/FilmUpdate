@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_close">Close</string>
+    <string name="action_go_back">Go Back</string>
+    <string name="action_go_forward">Go Forward</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_share">Share</string>
+    <string name="menu_search">Search</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+    <style name="InAppWebViewTheme" parent="Theme.AppCompat">
+
+    </style>
+    <style name="ThemeTransparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
