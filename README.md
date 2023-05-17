@@ -19,6 +19,16 @@ Star⭐ the repo if you like what you see😉.
 |<img src="media/3.png" width="400">|<img src="media/4.png" width="400">|
 
 
+## 🎯 Key feature
+* get popular movie
+* get up comming movie
+* get discover movie
+* get now playing movie
+* get all movie by genre
+* using infinite scrolling pagination
+* see details movie
+* play trailer movie and get recomendation by movie was choose
+* add movie to favorite list
 
 ## ✨ Requirements
 * Any Operating System
@@ -27,6 +37,8 @@ Star⭐ the repo if you like what you see😉.
 
 ## 🤓 Author(s)
 [**HyIamJu**](https://github.com/HyIamJu)
+
+if you want use the project please use your own apikey and dont use the logo was I made.
 
 ## Getting Started
 
