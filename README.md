@@ -20,7 +20,8 @@ Star⭐ the repo if you like what you see😉.
 
 
 ## 🎯 Key feature
-* get popular movie
+* searching movie
+* get popular movie 
 * get up comming movie
 * get discover movie
 * get now playing movie
