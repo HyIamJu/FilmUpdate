@@ -51,5 +51,6 @@ more info you can see on [**MovieDb web**](https://developers.themoviedb.org/3/g
 1. fork this repository
 2. go to file film_update_mobile_apps/lib/utils/app_constant.dart
 3. change apikey string to your own apikey from movieDb
-4. save and run the project
-5. enjoyy 😋😊
+4. pub get all dependency
+5. save and run the project
+6. enjoyy 😋😊
